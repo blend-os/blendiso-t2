@@ -13,7 +13,6 @@ jobs:
       if: ${{ !contains(github.event.head_commit.message, '[no build]') }}
       run: |
         cat << EOF > entrypoint.sh
-        cd /build
         useradd builduser -m
         passwd -d builduser
         pacman-key --init
