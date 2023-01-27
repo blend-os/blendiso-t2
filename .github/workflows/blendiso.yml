@@ -40,7 +40,7 @@ jobs:
       if: ${{ github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, '[no rel]') && !contains(github.event.head_commit.message, '[no build]') }}
       run: |
         export TAG=$(date +%Y.%m.%d)
-        echo "::set-output name=tag::${TAG}"
+        echo "tag=${TAG}" >> $GITHUB_OUTPUT
         echo $TAG
     - name: Release
       if: ${{ github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, '[no rel]') && !contains(github.event.head_commit.message, '[no build]') }}
