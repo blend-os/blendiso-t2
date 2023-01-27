@@ -191,7 +191,7 @@ plymouth
 # OS installation and tweaks
 filesystem-blend
 lsb-release-blend
-jade
+jade-t2
 jade-gui
 
 # Keyring
