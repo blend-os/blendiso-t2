@@ -1,5 +1,4 @@
 alsa-utils
-amd-ucode
 apple-t2-audio-config
 arch-install-scripts
 archinstall
@@ -102,7 +101,6 @@ squashfs-tools
 sudo
 syslinux
 #systemd-resolvconf
-t2strap
 tcpdump
 #terminus-font
 #testdisk

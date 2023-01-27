@@ -1,3 +1,6 @@
+# blendOS-T2
+Modified blendOS ISO for use with Macs with T2 security chip. It's not intended for other devices.
+
 # blendOS ISO build scripts
 The blendOS build scripts are used to build the blendOS installation ISO images.
 
